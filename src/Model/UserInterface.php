@@ -13,9 +13,9 @@ namespace Sonata\UserBundle\Model;
 
 interface UserInterface extends \FOS\UserBundle\Model\UserInterface
 {
-    public const GENDER_FEMALE = 'f';
-    public const GENDER_MALE = 'm';
-    public const GENDER_UNKNOWN = 'u';
+    const GENDER_FEMALE = 'f';
+    const GENDER_MALE = 'm';
+    const GENDER_UNKNOWN = 'u';
 
     /**
      * Sets the creation date.

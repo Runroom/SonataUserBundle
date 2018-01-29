@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /*
  * This file is part of the Sonata Project package.
  *
@@ -56,7 +54,7 @@ class TwoFactorLoginSuccessHandlerTest extends TestCase
      */
     private $token;
 
-    protected function tearDown(): void
+    protected function tearDown()
     {
         $this->user = null;
         $this->token = null;
@@ -67,7 +65,7 @@ class TwoFactorLoginSuccessHandlerTest extends TestCase
     /**
      * @dataProvider data
      */
-    public function testDifferentCases(string $secret, string $role, string $ip, bool $needSession, string $expected): void
+    public function testDifferentCases($secret, $role, $ip, $needSession, $expected)
     {
         $this->createTestClass($secret, $role, $ip, $needSession);
         $response = $this->testClass->onAuthenticationSuccess($this->request, $this->token);
@@ -84,7 +82,7 @@ class TwoFactorLoginSuccessHandlerTest extends TestCase
         ];
     }
 
-    private function createTestClass(string $secret, string $userRole, string $remoteAddr, bool $needSession): void
+    private function createTestClass($secret, $userRole, $remoteAddr, $needSession)
     {
         $this->user = new BaseUser();
         if ($secret) {

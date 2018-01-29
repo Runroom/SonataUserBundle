@@ -92,7 +92,7 @@ class SecurityRolesTypeTest extends TypeTestCase
         $this->assertContains('ROLE_SUPER_ADMIN', $form->getData());
     }
 
-    public function testChoicesAsValues(): void
+    public function testChoicesAsValues()
     {
         $resolver = new OptionsResolver();
         $type = new SecurityRolesType($this->roleBuilder);
