@@ -2,13 +2,13 @@
 
 Symfony SonataUserBundle
 
-[![Latest Stable Version](https://poser.pugx.org/sonata-project/user-bundle/v/stable)](https://packagist.org/packages/sonata-project/user-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/sonata-project/user-bundle/v/unstable)](https://packagist.org/packages/sonata-project/user-bundle)
-[![License](https://poser.pugx.org/sonata-project/user-bundle/license)](https://packagist.org/packages/sonata-project/user-bundle)
+[![Latest Stable Version](https://poser.pugx.org/runroom/user-bundle/v/stable)](https://packagist.org/packages/runroom/user-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/runroom/user-bundle/v/unstable)](https://packagist.org/packages/runroom/user-bundle)
+[![License](https://poser.pugx.org/runroom/user-bundle/license)](https://packagist.org/packages/runroom/user-bundle)
 
-[![Total Downloads](https://poser.pugx.org/sonata-project/user-bundle/downloads)](https://packagist.org/packages/sonata-project/user-bundle)
-[![Monthly Downloads](https://poser.pugx.org/sonata-project/user-bundle/d/monthly)](https://packagist.org/packages/sonata-project/user-bundle)
-[![Daily Downloads](https://poser.pugx.org/sonata-project/user-bundle/d/daily)](https://packagist.org/packages/sonata-project/user-bundle)
+[![Total Downloads](https://poser.pugx.org/runroom/user-bundle/downloads)](https://packagist.org/packages/runroom/user-bundle)
+[![Monthly Downloads](https://poser.pugx.org/runroom/user-bundle/d/monthly)](https://packagist.org/packages/runroom/user-bundle)
+[![Daily Downloads](https://poser.pugx.org/runroom/user-bundle/d/daily)](https://packagist.org/packages/runroom/user-bundle)
 
 Branch | Travis | Coveralls |
 ------ | ------ | --------- |
@@ -29,8 +29,8 @@ If you think you found a bug or you have a feature idea to propose, feel free to
 
 This package is available under the [MIT license](LICENSE).
 
-[travis_stable_badge]: https://travis-ci.org/runroom/SonataUserBundle.svg?branch=4.x
-[travis_stable_link]: https://travis-ci.org/runroom/SonataUserBundle
+[travis_stable_badge]: https://travis-ci.org/Runroom/SonataUserBundle.svg?branch=4.x
+[travis_stable_link]: https://travis-ci.org/Runroom/SonataUserBundle
 
-[coveralls_stable_badge]: https://coveralls.io/repos/github/runroom/SonataUserBundle/badge.svg?branch=4.x
-[coveralls_stable_link]: https://coveralls.io/github/runroom/SonataUserBundle?branch=4.x
+[coveralls_stable_badge]: https://coveralls.io/repos/github/Runroom/SonataUserBundle/badge.svg?branch=4.x
+[coveralls_stable_link]: https://coveralls.io/github/Runroom/SonataUserBundle?branch=4.x
